@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Petite Vue</title>
+    <script src="./app.js" type="module"></script>
+  </head>
+
+  <body>
+    <!-- reuse it -->
+    <div
+      v-scope="App({url: 'https://jsonplaceholder.typicode.com/users'})"
+      v-effect="getArticles()"
+    ></div>
+
+    <div
+      v-scope="App({url: 'https://jsonplaceholder.typicode.com/users'})"
+      v-effect="getArticles()"
+    ></div>
+  </body>
+</html>

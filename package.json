@@ -1,0 +1,25 @@
+{
+  "name": "bbcom-petite-vue",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "David Moore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -C",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+
+  "devDependencies": {
+    "serve": "latest"
+  }
+}
